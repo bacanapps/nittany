@@ -30,9 +30,9 @@
             ]
         },
         {
-            "command": "en",
+            "command": "cook",
             "arguments": [
-                "devel"
+                "devel_modules"
             ]
         }
     ],
