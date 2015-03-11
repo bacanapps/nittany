@@ -1,18 +1,9 @@
 {
-    "name": "nittany baseline",
+    "name": "Nittany Base line",
     "drush_recipes_api": "1.0",
     "weight": "0",
     "core": "7",
     "recipe": [
-        {
-            "command": "si",
-            "arguments": [
-                "minimal"
-            ],
-            "options": {
-                "y": true
-            }
-        },
         {
             "command": "cook",
             "arguments": [
@@ -43,9 +34,6 @@
             "arguments": [
                 "devel"
             ]
-        },
-        {
-            "command": "uli"
         }
     ],
     "metadata": {
