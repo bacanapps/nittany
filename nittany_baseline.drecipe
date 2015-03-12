@@ -1,5 +1,5 @@
 {
-    "name": "Nittany Base line",
+    "name": "Nittany Baseline",
     "drush_recipes_api": "1.0",
     "weight": "0",
     "core": "7",
@@ -23,6 +23,19 @@
                 "mlt-global": 0
             }
         },
+        {
+			"command": "pm-download",
+			"arguments": [
+				"rubik"
+			]
+		},
+		{
+			"command": "variable-set",
+			"arguments": [
+				"admin_theme",
+				"rubik"
+			]
+		},
         {
             "command": "cc",
             "arguments": [
