@@ -7,7 +7,7 @@
         {
             "command": "cook",
             "arguments": [
-                "standard_unsuck,dr_security_core_settings,core_above_core,d7adminux,standard_types"
+                "standard_unsuck,dr_security_core_settings,core_above_core,d7adminux,standard_types,repgui"
             ],
             "options": {
                 "y": true
