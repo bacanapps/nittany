@@ -16,7 +16,7 @@
         {
             "command": "cook",
             "arguments": [
-                "simple_performance_pack"
+                "devel_modules,simple_performance_pack"
             ],
             "options": {
                 "y": true,
@@ -27,12 +27,6 @@
             "command": "cc",
             "arguments": [
                 "all"
-            ]
-        },
-        {
-            "command": "cook",
-            "arguments": [
-                "devel_modules"
             ]
         }
     ],
