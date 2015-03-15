@@ -1,0 +1,29 @@
+{
+    "name": "Search Engine Optimization Suite",
+    "drush_recipes_api": "1.0",
+    "core": "7",
+    "weight": 0,
+    "recipe": [
+        {
+            "command": "en",
+            "arguments": [
+                "seo_checklist,seo_checker,page_title,Path_Redirect,globalredirect,metatag,search404,xmlsitemap,site_verify,linkchecker,menu_attributes,pathAuto,contentoptimizer"
+            ],
+            "options": {
+                "y": true
+            }
+        },
+        {
+            "command": "cc",
+            "arguments": [
+                "drush"
+            ]
+        }
+    ],
+    "metadata": {
+        "description": "Download drupal modules common with search engine optimization.",
+        "version": "1.0",
+        "type": "add-on",
+        "author": "bradallenfisher"
+    }
+}
