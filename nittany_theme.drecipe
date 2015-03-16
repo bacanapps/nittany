@@ -6,13 +6,13 @@
     "recipe": [
         {
             "conditional": {
-                "default": "zurb_foundation.drecipe",
                 "1": "omega.drecipe",
-                "1": "bootstrap.drecipe"
+                "2": "bootstrap.drecipe",
+                "default": "zurb_foundation.drecipe"
             },
             "prompt": "Which theme would you like to develop with?",
             "optional": "false"
-        },
+        }
     ],
     "metadata": {
         "description": "Ask which theme to start working against.",
