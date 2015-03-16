@@ -1,0 +1,23 @@
+{
+    "name": "Nittany Theme Selector",
+    "drush_recipes_api": "1.0",
+    "weight": "0",
+    "core": "7",
+    "recipe": [
+        {
+            "conditional": {
+                "default": "zurb_foundation.drecipe",
+                "1": "omega.drecipe",
+                "1": "bootstrap.drecipe"
+            },
+            "prompt": "Which theme would you like to develop with?",
+            "optional": "false"
+        },
+    ],
+    "metadata": {
+        "description": "Ask which theme to start working against.",
+        "version": "1.0",
+        "type": "routine",
+        "author": "btopro"
+    }
+}
