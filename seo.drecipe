@@ -7,17 +7,11 @@
         {
             "command": "en",
             "arguments": [
-                "seo_checklist,seo_checker,page_title,Path_Redirect,globalredirect,metatag,search404,xmlsitemap,site_verify,linkchecker,menu_attributes,pathAuto,contentoptimizer"
+                "seo_checklist,seo_checker,checklistapi,page_title,redirect,globalredirect,metatag,search404,xmlsitemap,site_verify,linkchecker,menu_attributes,pathAuto,contentoptimizer,contentanalysis,subpathauto"
             ],
             "options": {
                 "y": true
             }
-        },
-        {
-            "command": "cc",
-            "arguments": [
-                "drush"
-            ]
         }
     ],
     "metadata": {
