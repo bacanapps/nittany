@@ -7,11 +7,14 @@
         {
             "command": "en",
             "arguments": [
-                "seo_checklist,seo_checker,checklistapi,page_title,redirect,globalredirect,metatag,search404,xmlsitemap,site_verify,linkchecker,menu_attributes,pathAuto,contentoptimizer,contentanalysis,subpathauto"
+                "seo_checklist,seo_checker,checklistapi,page_title,redirect,globalredirect,metatag,search404,xmlsitemap,site_verify,linkchecker,menu_attributes,pathauto,contentoptimizer,contentanalysis,subpathauto"
             ],
             "options": {
                 "y": true
             }
+        },
+        {
+            "command": "cron"
         }
     ],
     "metadata": {
