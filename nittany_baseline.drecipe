@@ -16,7 +16,7 @@
         {
             "command": "dl",
             "arguments": [
-                "textbook"
+                "textbook,zurb-foundation-7.x-5.x-dev"
             ]
         },
         {
