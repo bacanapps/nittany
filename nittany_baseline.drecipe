@@ -20,6 +20,12 @@
             ]
         },
         {
+            "command": "en",
+            "arguments": [
+                "advanced_help"
+            ]
+        },
+        {
             "command": "cook",
             "arguments": [
                 "simple_performance_pack"
@@ -40,6 +46,6 @@
         "description": "Standard nittany development starting point.",
         "version": "1.0",
         "type": "routine",
-        "author": "btopro"
+        "author": "psudug"
     }
 }
